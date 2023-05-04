@@ -1,0 +1,167 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@500&display=swap');
+
+/* Root */
+
+:root {
+    --text: #000;
+    --strong: #00ff00;
+    --background: #fffff0;
+}
+
+/* Reset CSS */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Body and Html styles */
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* CSS  */
+
+body {
+    background-color: var(--background);
+}
+
+strong {
+    color: var(--strong);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 7rem;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    background-color: #1a1a4c;
+    width: 30%;
+    height: 80%;
+    padding: 5rem;
+    border-radius: 2rem;
+}
+
+#email {
+    width: 90%;
+    height: 10%;
+    padding: 1rem;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(197, 192, 192);
+    color: var(--text);
+    background-image: url(../img/mail.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30px;
+    padding-left: 4rem;
+}
+
+#password {
+    width: 90%;
+    height: 10%;
+    padding: 1rem;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(197, 192, 192);
+    color: var(--text);
+    background-image: url(../img/key.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30px;
+    padding-left: 4rem;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    width: 300px;
+    height: 15px;
+    padding: 1.5rem;
+    margin-top: 4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.copyright-paragraph {
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+}
+
+.btn {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    background-color: var(--strong);
+    color: var(--text);
+    transition: 1s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgba(34, 34, 34, 0.658);
+}
+
+@media (max-width: 910px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .container-items {
+            margin-left: 7rem;
+            margin-bottom: 2rem;
+    }
+
+    .items {
+        width: 90%;
+    }
+
+    #password,
+    #email {
+        width: 250px;
+        height: 10%;
+
+    }
+
+    .logo-aeros {
+        width: 200px;
+        height: 200px;
+    }
+}
