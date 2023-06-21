@@ -1,6 +1,8 @@
 <h1 align="center">Project Aeros</h1>
 
-<img width="100%" src="https://viagensaeros.vercel.app/img/aeros-laptop.png" align="center">
+<p align="center">
+<img width="70%" src="https://viagensaeros.vercel.app/img/aeros-laptop.png" alt="aeros-logo-in-laptop">
+</p>
 
 <h2 align="center">A project created to set an example of a travel company at a fair price.</h2>
 
