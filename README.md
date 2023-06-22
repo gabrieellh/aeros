@@ -7,9 +7,9 @@
 <h2 align="center">A project created to set an example of a travel company at a fair price.</h2>
 
 <p align="center">
-<a href="#-tecnologias-usadas">Tecnologies used</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
-<a href="#-onde-me-encontrar">Where to find me?</a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="#-made-by">Made by</a>
+    <a href="#-tecnologies-used">Tecnologies used</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-where-to-find-me">Where to find me</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-made-by">Made by</a>
 </p>
 
 &nbsp;
@@ -22,10 +22,10 @@
     <li>JavaScript</li>
 </ul>
 
-## 📣  Where to find me?
+## 📣  Where to find me
 
 <a href="https://instagram.com/gabrieelh_">Meu instagram</a>
 
-## 🌟  Made By
+## 🌟  Made by
 
 <p>Project made by 💓 Gabriel Henrique</p>
